@@ -1,14 +1,17 @@
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  padding: 0 !important;
+  margin: 0 !important;
+  background-color: #efefef;
+  overflow-x: hidden;
 }
 
 a {
   color: inherit;
   text-decoration: none;
+}
+a:hover {
+  color: white;
 }
 
 * {
@@ -35,4 +38,8 @@ ul {
 button {
   padding: 0.5rem 1rem;
   font-weight: bold;
+}
+
+.bg-success {
+  background-color: #008080 !important;
 }
